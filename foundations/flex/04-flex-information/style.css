@@ -24,20 +24,21 @@ img {
 
 .items {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
+  gap: 52px;
   
 
 }
 
-.item {
+.description {
   
   display: flex;
   flex-direction: column;
-  
-  
+  justify-content: center;
+  align-items: center;
+  width: 200px
   
   
 }
